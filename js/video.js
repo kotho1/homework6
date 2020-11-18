@@ -59,7 +59,7 @@ document.querySelector("#volumeSlider").addEventListener("click", function() {
 });
 
 document.querySelector("#old").addEventListener("click", function() {
-	document.querySelector("main").classList.add("oldTime");
+	document.querySelector("body").classList.add("oldTime");
 });
 
 document.querySelector("#original").addEventListener("click", function() {
